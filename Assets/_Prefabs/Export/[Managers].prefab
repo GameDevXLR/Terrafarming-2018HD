@@ -1943,27 +1943,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPlantObjects:
-  - {fileID: 11400000, guid: e04c2b246d2adbb4a8f26e8926bc73cf, type: 2}
-  - {fileID: 11400000, guid: e8dde68984963f74592ba4b2c02aecad, type: 2}
-  - {fileID: 11400000, guid: a73be403d1efdb24cb3c7ea1fe78e125, type: 2}
-  - {fileID: 11400000, guid: 511cc9d9e4bf3254dae73ee916ee7b5a, type: 2}
-  - {fileID: 11400000, guid: b3f7832cb7e438d4d9d9ec6fb8f69cab, type: 2}
-  - {fileID: 11400000, guid: c582748df02b1b64e80938de1d108562, type: 2}
-  - {fileID: 11400000, guid: 1ad49ffd6fd99b148b46cb61526c9e20, type: 2}
-  - {fileID: 11400000, guid: 1924daa7eeee63d489c15a87ed2bb539, type: 2}
-  - {fileID: 11400000, guid: aa867a1ac36d205408968c91e7f68be7, type: 2}
-  - {fileID: 11400000, guid: d85e1e745664d0a40a0d59eece3832ad, type: 2}
-  - {fileID: 11400000, guid: e0dd8b27b577b434eb3d9865e78a5720, type: 2}
-  - {fileID: 11400000, guid: b59cb295d897a6b4fb3145065381e68b, type: 2}
-  - {fileID: 11400000, guid: 7c413b6c5ef569243b6254ad6614bcbb, type: 2}
-  - {fileID: 11400000, guid: 4d7dbc5bca5af314db676a7909c1039b, type: 2}
-  - {fileID: 11400000, guid: 602c52e761bd09548be3a5a4c78fe240, type: 2}
-  - {fileID: 11400000, guid: 32752611f452ca34bb8c8c5a174373e9, type: 2}
-  - {fileID: 11400000, guid: 849879ccb43aad04997dbf1a94828d57, type: 2}
-  - {fileID: 11400000, guid: bb62fe1832cb75c43892be3e7f0ee426, type: 2}
-  - {fileID: 11400000, guid: 2b9f3040e576f7d438af2269ed07a3c0, type: 2}
-  - {fileID: 11400000, guid: ea0be9f2162a4454f9d75fcd95a2ce1f, type: 2}
-  - {fileID: 11400000, guid: 787d373fbe885984b9e7e05c5072e48a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   genericSeed: {fileID: 1263873175595950, guid: b624e07e557b1584191b4788660d8545,
     type: 2}
   plantObjectUI: {fileID: 1371589028298532, guid: a4896d7ef15c96242936daea610b7d97,
@@ -1981,27 +1981,27 @@ MonoBehaviour:
   craterUIVisible: 1
   caveUIVisible: 1
   collectionOpen: 1
-  airFlower: {fileID: 11400000, guid: 1924daa7eeee63d489c15a87ed2bb539, type: 2}
-  airBush: {fileID: 11400000, guid: 1ad49ffd6fd99b148b46cb61526c9e20, type: 2}
-  airTree: {fileID: 11400000, guid: aa867a1ac36d205408968c91e7f68be7, type: 2}
-  caveFlower: {fileID: 11400000, guid: e8dde68984963f74592ba4b2c02aecad, type: 2}
-  caveBush: {fileID: 11400000, guid: e04c2b246d2adbb4a8f26e8926bc73cf, type: 2}
-  caveTree: {fileID: 11400000, guid: a73be403d1efdb24cb3c7ea1fe78e125, type: 2}
-  craterFlower: {fileID: 11400000, guid: b3f7832cb7e438d4d9d9ec6fb8f69cab, type: 2}
-  craterBush: {fileID: 11400000, guid: 511cc9d9e4bf3254dae73ee916ee7b5a, type: 2}
-  craterTree: {fileID: 11400000, guid: c582748df02b1b64e80938de1d108562, type: 2}
-  airCaveFlower: {fileID: 11400000, guid: 849879ccb43aad04997dbf1a94828d57, type: 2}
-  airCaveBush: {fileID: 11400000, guid: 32752611f452ca34bb8c8c5a174373e9, type: 2}
-  airCaveTree: {fileID: 11400000, guid: bb62fe1832cb75c43892be3e7f0ee426, type: 2}
-  airCraterFlower: {fileID: 11400000, guid: ea0be9f2162a4454f9d75fcd95a2ce1f, type: 2}
-  airCraterBush: {fileID: 11400000, guid: 2b9f3040e576f7d438af2269ed07a3c0, type: 2}
-  airCraterTree: {fileID: 11400000, guid: 787d373fbe885984b9e7e05c5072e48a, type: 2}
-  caveCraterFlower: {fileID: 11400000, guid: 4d7dbc5bca5af314db676a7909c1039b, type: 2}
-  caveCraterBush: {fileID: 11400000, guid: 7c413b6c5ef569243b6254ad6614bcbb, type: 2}
-  caveCraterTree: {fileID: 11400000, guid: 602c52e761bd09548be3a5a4c78fe240, type: 2}
+  airFlower: {fileID: 0}
+  airBush: {fileID: 0}
+  airTree: {fileID: 0}
+  caveFlower: {fileID: 0}
+  caveBush: {fileID: 0}
+  caveTree: {fileID: 0}
+  craterFlower: {fileID: 0}
+  craterBush: {fileID: 0}
+  craterTree: {fileID: 0}
+  airCaveFlower: {fileID: 0}
+  airCaveBush: {fileID: 0}
+  airCaveTree: {fileID: 0}
+  airCraterFlower: {fileID: 0}
+  airCraterBush: {fileID: 0}
+  airCraterTree: {fileID: 0}
+  caveCraterFlower: {fileID: 0}
+  caveCraterBush: {fileID: 0}
+  caveCraterTree: {fileID: 0}
   airCaveCraterFlower: {fileID: 0}
   airCaveCraterBush: {fileID: 0}
-  airCaveCraterTree: {fileID: 11400000, guid: b59cb295d897a6b4fb3145065381e68b, type: 2}
+  airCaveCraterTree: {fileID: 0}
 --- !u!114 &114243969568696048
 MonoBehaviour:
   m_ObjectHideFlags: 1
