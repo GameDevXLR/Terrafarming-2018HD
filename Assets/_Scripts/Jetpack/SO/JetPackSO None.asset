@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Name: JetPackSO None
   m_EditorClassIdentifier: 
   jumpForce: 0
-  terrains: 4
   consoBoost: 0
   consoVol: 0
+  terrainsValue: 0
   canVol: 0
+  Sounds:
+    soundUp: {fileID: 8300000, guid: 9520d2267de2caa4b9bc8f4a054f1677, type: 3}
+    soundDown: {fileID: 8300000, guid: a21c23ffb65b586449e158dac34a7cc7, type: 3}
+    soundLoop: {fileID: 8300000, guid: 8daf4313baa90c3479372c00ca4effa5, type: 3}

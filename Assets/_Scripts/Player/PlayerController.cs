@@ -7,9 +7,10 @@ public class PlayerController : MonoBehaviour
     #region variables editor
 
     public CharacterController Cc;
-    public bool isGrounded;
     public Animator anim;
+    public AudioSource audio;
 
+    public bool isGrounded;
     public bool canDoAction = true;
 
     public BehaviourController behaviour;
@@ -108,6 +109,7 @@ public class PlayerController : MonoBehaviour
         {
             behaviour.JumpWithAdditionalForce(JetPack.JumpForce);
             propulseurParticle.Burst();
+            audio.PlayOneShot(jetPack.JetPack.Sounds.soundUp);
         }
     }
 
@@ -117,18 +119,28 @@ public class PlayerController : MonoBehaviour
         {
             behaviour.JumpWith(JetPack.JumpForce);
             propulseurParticle.Burst();
+            audio.PlayOneShot(jetPack.JetPack.Sounds.soundUp);
         }
     }
 
     public void Fly()
     {
         if (JetPack.StartConsommation())
+        {
             behaviour.IsFlying = true;
+            audio.clip = jetPack.JetPack.Sounds.soundLoop;
+            audio.Play();
+            audio.loop = true;
+
+        }
     }
 
     public void StopFlying()
     {
         JetPack.StopConsommation();
         behaviour.IsFlying = false;
+        audio.Stop();
+        audio.clip = null;
+        audio.loop = false;
     }
 }

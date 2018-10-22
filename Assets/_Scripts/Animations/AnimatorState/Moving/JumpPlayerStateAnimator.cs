@@ -29,7 +29,7 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
             {
                 controller.BoostFromJetPack();
             }
-            if (Input.GetKey(CustomInputManager.instance.jumpKey))
+            if (Input.GetKey(CustomInputManager.instance.jumpKey) && controller.JetPack.JetPack.canVol)
             {
                 SwitchAnime(AnimeParameters.isflying, true);
             }

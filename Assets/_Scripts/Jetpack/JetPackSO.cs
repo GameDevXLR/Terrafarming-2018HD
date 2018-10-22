@@ -11,6 +11,7 @@ public class JetPackSO : ScriptableObject
     [SerializeField]
     public int terrainsValue;
     public bool canVol;
+    public JetPackSound Sounds;
 
 
     public TerrainEnum Terrain {

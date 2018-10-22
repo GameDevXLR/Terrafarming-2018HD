@@ -16,3 +16,7 @@ MonoBehaviour:
   consoVol: 0
   terrainsValue: -1
   canVol: 1
+  Sounds:
+    soundUp: {fileID: 8300000, guid: d81e51a0d344f474a970f6474278f0cc, type: 3}
+    soundDown: {fileID: 8300000, guid: 7aad551febb644241b764e907f3ed22d, type: 3}
+    soundLoop: {fileID: 8300000, guid: 8daf4313baa90c3479372c00ca4effa5, type: 3}

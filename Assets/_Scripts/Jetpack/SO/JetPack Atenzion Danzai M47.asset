@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Name: JetPack Atenzion Danzai M47
   m_EditorClassIdentifier: 
   jumpForce: 10
-  terrains: 0
   consoBoost: 0
   consoVol: 0
+  terrainsValue: 6
   canVol: 1
+  Sounds:
+    soundUp: {fileID: 8300000, guid: f7be28cf2351e0347960019a921576da, type: 3}
+    soundDown: {fileID: 8300000, guid: 4d6676e74d7c0c8448d423f672ae96bf, type: 3}
+    soundLoop: {fileID: 8300000, guid: 8daf4313baa90c3479372c00ca4effa5, type: 3}

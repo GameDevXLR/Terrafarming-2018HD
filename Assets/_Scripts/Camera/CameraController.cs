@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour
     #region editor variables
 
     public GameObject focus;
+    //public GameObject test;
 
     public Vector3 offset;
     public float stepZoom;
@@ -53,7 +54,8 @@ public class CameraController : MonoBehaviour
     {
         setVerticalUI(v);
         setHorizontalUI(h);
-        
+        //test = GameObject.CreatePrimitive(PrimitiveType.Sphere); 
+
     }
 
     private void Start()
@@ -63,9 +65,8 @@ public class CameraController : MonoBehaviour
         transform.LookAt(focus.transform);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
-        
         MoveSmoothlyCam();
         RotateSmoothlyCam();
     }
@@ -76,8 +77,10 @@ public class CameraController : MonoBehaviour
     public void MoveSmoothlyCam()
     {
         offset = Quaternion.Euler(V, -H, Z) * new Vector3(0, 0, 1);
+        //Vector3 newPosition = focus.transform.position - offset * Distance;
         Vector3 newPosition = focus.transform.position - offset * Distance;
-        newPosition = DetectEnvironnemnt(newPosition);
+        //newPosition = DetectEnvironnemnt(newPosition);
+        newPosition = DetectPosition(focus.transform.position, offset);
 
         transform.position = Vector3.Lerp(transform.position, newPosition, smooth * Time.deltaTime);
     }
@@ -98,14 +101,31 @@ public class CameraController : MonoBehaviour
     public Vector3 DetectEnvironnemnt(Vector3 p1)
     {
         RaycastHit hit;
-        
 
-        if (Physics.Raycast(p1, -Vector3.up,out hit, heigthDetect, mask) && hit.distance < minHeight) 
+
+        if (Physics.Raycast(p1, -Vector3.up, out hit, heigthDetect, mask) && hit.distance < minHeight)
         {
-            p1.y += minHeight ;
+            p1.y += minHeight;
             V += hit.distance * minHeight;
         }
         return p1;
+    }
+
+    public Vector3 DetectPosition(Vector3 p1, Vector3 offset)
+    {
+        RaycastHit hit;
+
+        //Debug.DrawRay(p1, -offset * distance, Color.green);
+
+        if (Physics.Raycast(p1, -offset, out hit, Distance, mask))
+        {
+            //Debug.Log(hit.point);
+            //test.transform.position = hit.point + offset;
+            p1 = hit.point;
+            p1.y += minHeight;
+            return p1 + offset;
+        }
+        return p1 - offset * Distance;
     }
 
     #endregion
