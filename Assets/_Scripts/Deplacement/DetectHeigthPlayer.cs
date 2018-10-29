@@ -44,6 +44,7 @@ public class DetectHeigthPlayer : MonoBehaviour
         }
         else
         {
+            Debug.Log("else");
             controller.IsGrounded = false;
             controller.SetAltitudeMaxFromGroundPos(0);
             controller.shadowObject.SetActive(false);

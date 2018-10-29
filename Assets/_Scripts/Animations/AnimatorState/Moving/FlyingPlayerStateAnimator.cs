@@ -11,7 +11,7 @@ public class FlyingPlayerStateAnimator : PlayerStateAnimator
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         if (!Input.GetKey(CustomInputManager.instance.jumpKey)
-            || (controller.IsGrounded && !Input.GetKey(CustomInputManager.instance.jumpKey))
+            || (controller.IsGrounded && (!Input.GetKey(CustomInputManager.instance.jumpKey)))
             || !controller.JetPack.CanFly())
         {
             SwitchAnime(AnimeParameters.isflying, false);

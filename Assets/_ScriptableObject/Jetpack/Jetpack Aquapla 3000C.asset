@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48247fe015f303e49aafb4538ca2ed1a, type: 3}
   m_Name: Jetpack Aquapla 3000C
   m_EditorClassIdentifier: 
-  jumpForce: 15
+  jumpForce: 8
   consoBoost: 10
   consoVol: 2
   terrainsValue: 1

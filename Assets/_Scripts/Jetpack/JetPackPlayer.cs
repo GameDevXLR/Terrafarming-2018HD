@@ -24,7 +24,7 @@ public class JetPackPlayer : MonoBehaviour, IConsommation {
 
     public bool CanFly()
     {
-        return reservoir.HaveEnougthEnergy(Conso);
+        return reservoir.HaveEnougthEnergy(Conso) && jetPack.canVol;
     }
 
     #region setter / getter

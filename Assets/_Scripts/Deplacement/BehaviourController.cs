@@ -30,7 +30,8 @@ public class BehaviourController : MonoBehaviour
     public float multSpeedFly = 2;
     [SerializeField]
     private float maxHeightReference = 20;
-    private float referenceYFly;
+    [SerializeField]
+    private float attitude;
     [SerializeField]
     private float maxHeight = 20;    
     private float minHeight = 0;
@@ -72,7 +73,7 @@ public class BehaviourController : MonoBehaviour
 
         if (isFlying)
         {
-            if (transform.position.y <= referenceYFly)
+            if (transform.position.y <= attitude)
                 Jump(flotaison);
             Gravity((gravity / 2) * flotaison);
         }
@@ -115,7 +116,7 @@ public class BehaviourController : MonoBehaviour
             float yref = transform.position.y - calculateJumpHeight() * flotaison;
             //float yref = transform.position.y - flotaison;
             //Debug.Log(transform.position.y + " / " + yref + " / " + calculateJumpHeight() +" / " +  calculateJumpHeight() * flotaison);
-            referenceYFly = (yref <= MinHeight) ? MinHeight : (yref > MaxHeight) ? MaxHeight : yref;
+            attitude = (yref <= MinHeight) ? MinHeight : (yref > MaxHeight) ? MaxHeight : yref;
         }
     }
 

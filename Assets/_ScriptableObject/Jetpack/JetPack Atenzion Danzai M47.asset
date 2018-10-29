@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48247fe015f303e49aafb4538ca2ed1a, type: 3}
   m_Name: JetPack Atenzion Danzai M47
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 8
   consoBoost: 0
   consoVol: 0
   terrainsValue: 6
