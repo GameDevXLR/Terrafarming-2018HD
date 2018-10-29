@@ -396,9 +396,9 @@ RectTransform:
   m_Father: {fileID: 596306789}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -60.9}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11868420
@@ -443,6 +443,44 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 32033eb1f94ea8049a964e388a4d0ed0, type: 3}
+--- !u!1 &15847248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1502516283800764, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &15847252
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15847248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &30441333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1420635797694020, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &30441337
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 30441333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300052, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &39942555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1663737393555438, guid: ed1c494d38adeb445b57f8e84610c781,
@@ -470,6 +508,25 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 95212926438991140, guid: ed1c494d38adeb445b57f8e84610c781,
     type: 2}
   m_PrefabInternal: {fileID: 1358168988}
+--- !u!1 &41805900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1267336449270732, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &41805904
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41805900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &54939102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1430,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 171910407}
   m_CullTransparentMesh: 0
+--- !u!1 &172856541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1280419621531200, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &172856545
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172856541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &181188430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,35 +1551,25 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 32033eb1f94ea8049a964e388a4d0ed0, type: 3}
---- !u!114 &187178252
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!1 &183781842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1212086581957690, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &183781846
+MeshCollider:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 183781842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: Dialoguequest2FirstSeedPlanted
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"It
-    recquires water and love to grow and transform this new world of ours !"},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5844.0,"y":5350.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":5978.188,"y":5439.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Let\u2019s
-    come back tomorrow to admire the result."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5927.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
-    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Captain Zen
-    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
-    _actorObject: {fileID: 0}
-  - _keyName: Pipon
-    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
-    _actorObject: {fileID: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300052, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &194425127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 32033eb1f94ea8049a964e388a4d0ed0,
@@ -1797,6 +1863,25 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 755045000}
   m_Script: {fileID: 11500000, guid: 2cc79b6e40947cf44bac603022338015, type: 3}
+--- !u!1 &225102395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1786074722890592, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &225102399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225102395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &225907975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,6 +2254,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 276165307}
   m_CullTransparentMesh: 0
+--- !u!1 &276929981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1173680794718264, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &276929985
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 276929981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300022, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &298742705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,6 +2439,25 @@ RectTransform:
   m_AnchoredPosition: {x: 86, y: 10}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &303734695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1623628443673612, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &303734699
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 303734695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300014, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &328070010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,6 +2774,44 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198366978892317772, guid: ed1c494d38adeb445b57f8e84610c781,
     type: 2}
   m_PrefabInternal: {fileID: 1358168988}
+--- !u!1 &355785032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1276377046218452, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &355785036
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355785032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300046, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &371261480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1344940391530760, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &371261484
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 371261480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300046, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &371392299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,9 +2927,9 @@ RectTransform:
   m_Father: {fileID: 1815616659}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -25}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372506215
@@ -2902,6 +3063,25 @@ MonoBehaviour:
   - _keyName: Pipon
     _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
     _actorObject: {fileID: 0}
+--- !u!1 &389517412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1795956474211100, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &389517416
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 389517412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300046, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &405170450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,7 +3800,7 @@ Transform:
   - {fileID: 1484907088}
   - {fileID: 1948671538}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &474877109
 GameObject:
@@ -3780,6 +3960,44 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 476280168}
   m_CullTransparentMesh: 0
+--- !u!1 &487879573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1667124068204586, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &487879577
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487879573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &488666393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878730790446062, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &488666397
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488666393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300056, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &497181472
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,9 +4028,9 @@ RectTransform:
   m_Father: {fileID: 596306789}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -17.95}
   m_SizeDelta: {x: 315.1, y: 35.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497181474
@@ -4161,7 +4379,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00003186307, y: -0.000043368404}
+  m_AnchoredPosition: {x: -0.00003186307, y: 0.000017666753}
   m_SizeDelta: {x: 0.000061035, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &519474267
@@ -4516,6 +4734,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 578656368}
   m_CullTransparentMesh: 0
+--- !u!1 &582554679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1971671786776368, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &582554683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 582554679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &596306788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4672,6 +4909,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 600948838}
   m_CullTransparentMesh: 0
+--- !u!1 &604002370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240629682606748, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &604002374
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604002370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300028, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &610826359
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,6 +5808,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 742753687}
   m_CullTransparentMesh: 0
+--- !u!1 &744370010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1348208358497458, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &744370014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744370010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300038, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1001 &755045000
 Prefab:
   m_ObjectHideFlags: 0
@@ -5989,7 +6264,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4817836166521974, guid: a577ced8e69cb984285698a44c1cdce2, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114349370741716908, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
@@ -6006,7 +6281,7 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 1366863024}
+      objectReference: {fileID: 884745583}
     - target: {fileID: 114297425536998166, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
       propertyPath: boundGraphSerialization
@@ -6024,7 +6299,7 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 1868102115}
+      objectReference: {fileID: 1866310068}
     - target: {fileID: 114039226628098464, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
       propertyPath: boundGraphSerialization
@@ -6039,7 +6314,7 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 187178252}
+      objectReference: {fileID: 1158899048}
     - target: {fileID: 114659423185495704, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
       propertyPath: boundGraphSerialization
@@ -6055,7 +6330,7 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 2043139466}
+      objectReference: {fileID: 906887707}
     - target: {fileID: 114667856606361330, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
       propertyPath: boundGraphSerialization
@@ -6071,7 +6346,7 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 1036536196}
+      objectReference: {fileID: 766543589}
     - target: {fileID: 114373167999490656, guid: a577ced8e69cb984285698a44c1cdce2,
         type: 2}
       propertyPath: playerController
@@ -6235,6 +6510,35 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 755045000}
   m_Script: {fileID: 11500000, guid: 28a7cf9aa8d10f24b896e525b1509d95, type: 3}
+--- !u!114 &766543589
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: Dialoguequest2FirstSeedCreated
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"Plant
+    it on your right, the soil is just perfect for it."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5844.0,"y":5350.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6024.188,"y":5437.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Once
+    grown up, this flower will make the surrounding area usable."},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5927.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
+    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Captain Zen
+    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
+    _actorObject: {fileID: 0}
+  - _keyName: Pipon
+    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
+    _actorObject: {fileID: 0}
 --- !u!1 &785787783
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,6 +6633,25 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300014, guid: 32033eb1f94ea8049a964e388a4d0ed0, type: 3}
+--- !u!1 &787990131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1285506620392872, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &787990135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 787990131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &805791293
 GameObject:
   m_ObjectHideFlags: 0
@@ -6503,6 +6826,44 @@ MonoBehaviour:
   - _keyName: Pipon
     _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
     _actorObject: {fileID: 0}
+--- !u!1 &818256102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1835262176504732, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &818256106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818256102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300048, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &818500072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1110007453375978, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &818500076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818500072}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &836362386
 GameObject:
   m_ObjectHideFlags: 0
@@ -6621,6 +6982,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 840288124}
   m_CullTransparentMesh: 0
+--- !u!1 &843586743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1537143399574162, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &843586747
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 843586743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &851218211
 GameObject:
   m_ObjectHideFlags: 0
@@ -6917,6 +7297,36 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880091766}
   m_CullTransparentMesh: 0
+--- !u!114 &884745583
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: Dialoguequest1
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"You''re
+    finaly here Pipon ! Let''s terraform this moon shall we?\n"},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5878.0,"y":5354.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6148.188,"y":5425.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"First,
+    I need you to gather some ore to feed my wonderful ZCT machine!"},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5930.0,"y":5521.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":5.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
+    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Captain Zen
+    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
+    _actorObject: {fileID: 0}
+  - _keyName: Pipon
+    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
+    _actorObject: {fileID: 0}
 --- !u!1 &893038245
 GameObject:
   m_ObjectHideFlags: 0
@@ -7241,6 +7651,36 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 905929298}
   m_CullTransparentMesh: 0
+--- !u!114 &906887707
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: Dialoguequest2FirstMiningDone
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"Well
+    done Pipon. I''ve created a machine that will use that ore to obtain a specific
+    seed for you to plant."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5683.0,"y":5379.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6055.188,"y":5436.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"I''ll
+    be back with many more Zen Catalyst Devices to help you in your task."},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5930.0,"y":5521.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
+    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Captain Zen
+    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
+    _actorObject: {fileID: 0}
+  - _keyName: Pipon
+    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
+    _actorObject: {fileID: 0}
 --- !u!1 &934580497
 GameObject:
   m_ObjectHideFlags: 0
@@ -7300,6 +7740,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &940829108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1496287963577770, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &940829112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940829108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300036, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &948383366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1086478826447572, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &948383370
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 948383366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300038, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &955314875
 GameObject:
   m_ObjectHideFlags: 0
@@ -7385,10 +7863,10 @@ RectTransform:
   m_Father: {fileID: 372506214}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 107.30603, y: -25}
+  m_SizeDelta: {x: 214.61206, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957716017
 MonoBehaviour:
@@ -7507,6 +7985,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 966050189}
   m_CullTransparentMesh: 0
+--- !u!1 &978941359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1940258641795192, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &978941363
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978941359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300012, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &980947232
 GameObject:
   m_ObjectHideFlags: 0
@@ -7603,6 +8100,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 980947232}
   m_CullTransparentMesh: 0
+--- !u!1 &1007117279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1543055817462898, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1007117283
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1007117279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300036, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1031859413
 GameObject:
   m_ObjectHideFlags: 0
@@ -7936,35 +8452,25 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1036536196
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!1 &1042790958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1023722358402110, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1042790962
+MeshCollider:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1042790958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: Dialoguequest2FirstSeedCreated
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"Plant
-    it on your right, the soil is just perfect for it."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5844.0,"y":5350.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6024.188,"y":5437.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Once
-    grown up, this flower will make the surrounding area usable."},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5927.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
-    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Captain Zen
-    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
-    _actorObject: {fileID: 0}
-  - _keyName: Pipon
-    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
-    _actorObject: {fileID: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300044, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1045417556
 GameObject:
   m_ObjectHideFlags: 0
@@ -8044,6 +8550,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045417556}
   m_CullTransparentMesh: 0
+--- !u!1 &1049847086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1681395059277898, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1049847090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049847086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300048, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1054794889
 GameObject:
   m_ObjectHideFlags: 0
@@ -8188,6 +8713,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.1, z: 1.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1071751012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1191331303520254, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1071751016
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071751012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300018, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1086693352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8220,10 +8764,10 @@ RectTransform:
   m_Father: {fileID: 1433718066}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100.069214, y: -25}
+  m_SizeDelta: {x: 200.13843, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086693354
 MonoBehaviour:
@@ -8415,8 +8959,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1268749349}
   m_HandleRect: {fileID: 1268749348}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999998
+  m_Value: 0
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8609,6 +9153,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1122019032}
   m_CullTransparentMesh: 0
+--- !u!1 &1122391508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1495751830084634, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1122391512
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122391508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1124587502
 GameObject:
   m_ObjectHideFlags: 0
@@ -8803,6 +9366,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1136376728}
   m_CullTransparentMesh: 0
+--- !u!1 &1137569132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1239868142812688, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1137569136
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137569132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300042, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1139543566
 GameObject:
   m_ObjectHideFlags: 0
@@ -8836,9 +9418,9 @@ RectTransform:
   m_Father: {fileID: 596306789}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -110.9}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1139543568
@@ -8950,6 +9532,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1143915868}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1146954094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1706888004246970, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1146954098
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146954094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300022, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1158805803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 32033eb1f94ea8049a964e388a4d0ed0,
@@ -8969,6 +9570,35 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 32033eb1f94ea8049a964e388a4d0ed0, type: 3}
+--- !u!114 &1158899048
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: Dialoguequest2FirstSeedPlanted
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"It
+    recquires water and love to grow and transform this new world of ours !"},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5844.0,"y":5350.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":5978.188,"y":5439.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Let\u2019s
+    come back tomorrow to admire the result."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5927.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
+    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Captain Zen
+    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
+    _actorObject: {fileID: 0}
+  - _keyName: Pipon
+    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
+    _actorObject: {fileID: 0}
 --- !u!1 &1170515246
 GameObject:
   m_ObjectHideFlags: 0
@@ -9001,10 +9631,10 @@ RectTransform:
   m_Father: {fileID: 11868419}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 252.59698, y: -25}
+  m_SizeDelta: {x: 194.80603, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170515248
 MonoBehaviour:
@@ -9202,6 +9832,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200176505}
   m_CullTransparentMesh: 0
+--- !u!1 &1202765294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1217928840269298, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1202765298
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202765294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300014, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1203570334
 GameObject:
   m_ObjectHideFlags: 0
@@ -9281,6 +9930,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1203570334}
   m_CullTransparentMesh: 0
+--- !u!1 &1220512432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1754716641976034, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1220512436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1220512432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1234282962
 GameObject:
   m_ObjectHideFlags: 0
@@ -9549,10 +10217,10 @@ RectTransform:
   m_Father: {fileID: 372506214}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 282.30603, y: -25}
+  m_SizeDelta: {x: 135.38794, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1244454836
 CanvasRenderer:
@@ -9670,10 +10338,10 @@ RectTransform:
   m_Father: {fileID: 11868419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 77.596985, y: -25}
+  m_SizeDelta: {x: 155.19397, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251102752
 MonoBehaviour:
@@ -9859,6 +10527,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268749347}
   m_CullTransparentMesh: 0
+--- !u!1 &1273815716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1805247689949170, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1273815720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273815716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1281710018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1436303688621966, guid: fdc47ac4b57378f4f962cd62fc620f6e,
@@ -10134,6 +10821,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1325346503}
   m_CullTransparentMesh: 0
+--- !u!1 &1325945851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1859018225347198, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1325945855
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1325945851}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300052, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1001 &1358168988
 Prefab:
   m_ObjectHideFlags: 0
@@ -10171,7 +10877,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4546492482773018, guid: ed1c494d38adeb445b57f8e84610c781, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114449977290766032, guid: ed1c494d38adeb445b57f8e84610c781,
         type: 2}
@@ -10231,36 +10937,25 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed1c494d38adeb445b57f8e84610c781, type: 2}
   m_IsPrefabAsset: 0
---- !u!114 &1366863024
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!1 &1367915516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1839688835074200, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1367915520
+MeshCollider:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1367915516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: Dialoguequest1
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"You''re
-    finaly here Pipon ! Let''s terraform this moon shall we?\n"},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5878.0,"y":5354.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6148.188,"y":5425.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"First,
-    I need you to gather some ore to feed my wonderful ZCT machine!"},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5930.0,"y":5521.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":5.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
-    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Captain Zen
-    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
-    _actorObject: {fileID: 0}
-  - _keyName: Pipon
-    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
-    _actorObject: {fileID: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300050, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1377420081
 GameObject:
   m_ObjectHideFlags: 0
@@ -10617,10 +11312,10 @@ RectTransform:
   m_Father: {fileID: 2141254636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 102.894165, y: -25}
+  m_SizeDelta: {x: 205.78833, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397754181
 MonoBehaviour:
@@ -10888,9 +11583,9 @@ RectTransform:
   m_Father: {fileID: 1815616659}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 175, y: -75}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433718067
@@ -11038,6 +11733,25 @@ RectTransform:
   m_AnchoredPosition: {x: -811, y: 463}
   m_SizeDelta: {x: 100.13, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1468533102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1147772429746132, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1468533106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468533102}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300052, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1484907087
 GameObject:
   m_ObjectHideFlags: 0
@@ -11541,6 +12255,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1565543572}
   m_CullTransparentMesh: 0
+--- !u!1 &1570914959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1879568942396376, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1570914963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1570914959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300050, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1590638058
 GameObject:
   m_ObjectHideFlags: 0
@@ -11724,6 +12457,25 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!1 &1611066391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1073251438180452, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1611066395
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611066391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300034, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1630358210
 GameObject:
   m_ObjectHideFlags: 0
@@ -11861,6 +12613,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 158.6, y: 170.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1654723606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1133399982208120, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1654723610
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1654723606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1655985827
 GameObject:
   m_ObjectHideFlags: 0
@@ -12147,6 +12918,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1668073482}
   m_CullTransparentMesh: 0
+--- !u!1 &1668537587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1293837981909970, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1668537591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668537587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300018, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1696896742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12387,6 +13177,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1736035714}
   m_CullTransparentMesh: 0
+--- !u!1 &1745464245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1980855393141680, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1745464249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745464245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300016, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1751017204
 GameObject:
   m_ObjectHideFlags: 0
@@ -12606,6 +13415,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1768057089}
   m_CullTransparentMesh: 0
+--- !u!1 &1777945663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1945388529237918, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1777945667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777945663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300056, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1785230280
 GameObject:
   m_ObjectHideFlags: 0
@@ -12679,6 +13507,44 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1785230280}
   m_CullTransparentMesh: 0
+--- !u!1 &1791660208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1710139301731546, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1791660212
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791660208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300014, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &1795472219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1963953706132280, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1795472223
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795472219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300056, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1798991336
 GameObject:
   m_ObjectHideFlags: 0
@@ -13012,10 +13878,10 @@ RectTransform:
   m_Father: {fileID: 1139543567}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 246.12193, y: -25}
+  m_SizeDelta: {x: 207.75613, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1845249198
 MonoBehaviour:
@@ -13172,10 +14038,10 @@ RectTransform:
   m_Father: {fileID: 1433718066}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275.0692, y: -25}
+  m_SizeDelta: {x: 149.86157, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1861997874
 Prefab:
@@ -13321,6 +14187,38 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
+--- !u!114 &1866310068
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: Dialoguequest2NewdayMachine2
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"I''m
+    made a new machine for you Pipon."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5744.0,"y":5337.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":5978.188,"y":5439.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Plant
+    this new kind of seed next to the first and one day, they might give you new seeds
+    with special traits for you to work with."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5897.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"statement":{"_text":"Try
+    to obtain an hybrid seed. I''m waiting for a big delivery full of crazy ZCD machines!
+    But some seeds can only be obtained in nature. Those are the bests!"},"_actorName":"Captain
+    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5955.0,"y":5741.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"12"},{"_position":{"x":6113.188,"y":5849.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"14"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
+    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Captain Zen
+    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
+    _actorObject: {fileID: 0}
+  - _keyName: Pipon
+    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
+    _actorObject: {fileID: 0}
 --- !u!114 &1867419086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13355,38 +14253,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
---- !u!114 &1868102115
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: Dialoguequest2NewdayMachine2
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"I''m
-    made a new machine for you Pipon."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5744.0,"y":5337.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":5978.188,"y":5439.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"Plant
-    this new kind of seed next to the first and one day, they might give you new seeds
-    with special traits for you to work with."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5897.0,"y":5539.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"statement":{"_text":"Try
-    to obtain an hybrid seed. I''m waiting for a big delivery full of crazy ZCD machines!
-    But some seeds can only be obtained in nature. Those are the bests!"},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5955.0,"y":5741.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"12"},{"_position":{"x":6113.188,"y":5849.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"14"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
-    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Captain Zen
-    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
-    _actorObject: {fileID: 0}
-  - _keyName: Pipon
-    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
-    _actorObject: {fileID: 0}
 --- !u!1 &1869674269
 GameObject:
   m_ObjectHideFlags: 0
@@ -13675,6 +14541,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1883819219}
   m_CullTransparentMesh: 0
+--- !u!1 &1889722640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1898607861827106, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1889722644
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889722640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300030, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &1892155637
 GameObject:
   m_ObjectHideFlags: 0
@@ -13864,12 +14749,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4242256612275990, guid: fdc47ac4b57378f4f962cd62fc620f6e, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 23606902533973166, guid: fdc47ac4b57378f4f962cd62fc620f6e,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23606902533973166, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc47ac4b57378f4f962cd62fc620f6e, type: 2}
@@ -14071,6 +14961,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 1
+--- !u!1 &1947671109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1958393692062400, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &1947671113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1947671109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300044, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!114 &1948671534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14705,36 +15614,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 1
---- !u!114 &2043139466
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: Dialoguequest2FirstMiningDone
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-5279.0,"y":-5280.0},"nodes":[{"statement":{"_text":"Well
-    done Pipon. I''ve created a machine that will use that ore to obtain a specific
-    seed for you to plant."},"_actorName":"Captain Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5683.0,"y":5379.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6055.188,"y":5436.862},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"statement":{"_text":"I''ll
-    be back with many more Zen Catalyst Devices to help you in your task."},"_actorName":"Captain
-    Zen","_actorParameterID":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_position":{"x":5930.0,"y":5521.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":6048.495,"y":5652.71},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"9"},{"_position":{"x":6122.188,"y":5760.862},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"12"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Captain
-    Zen","_id":"9158461d-c427-4d7f-8cfd-b64ca807b56c","_actorObject":1},{"_keyName":"Pipon","_id":"a17debcf-ca13-40f5-ac2d-136d5c957a9c","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Captain Zen
-    _id: 9158461d-c427-4d7f-8cfd-b64ca807b56c
-    _actorObject: {fileID: 0}
-  - _keyName: Pipon
-    _id: a17debcf-ca13-40f5-ac2d-136d5c957a9c
-    _actorObject: {fileID: 0}
 --- !u!1 &2053955153
 GameObject:
   m_ObjectHideFlags: 0
@@ -14767,10 +15646,10 @@ RectTransform:
   m_Father: {fileID: 2141254636}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 296.49417, y: -25}
+  m_SizeDelta: {x: 181.41168, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053955155
 MonoBehaviour:
@@ -14814,6 +15693,63 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053955153}
   m_CullTransparentMesh: 0
+--- !u!1 &2085193761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1869226820646522, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &2085193765
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085193761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300016, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &2085272083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1551762881518142, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &2085272087
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085272083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300052, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
+--- !u!1 &2085621446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1796361297928934, guid: fdc47ac4b57378f4f962cd62fc620f6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1898934521}
+--- !u!64 &2085621450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085621446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300054, guid: 5efec034f487a3245872f1414b4cb8dc, type: 3}
 --- !u!1 &2130018170
 GameObject:
   m_ObjectHideFlags: 0
@@ -14880,10 +15816,10 @@ RectTransform:
   m_Father: {fileID: 1139543567}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 71.12193, y: -25}
+  m_SizeDelta: {x: 142.24387, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2135336309
 MonoBehaviour:

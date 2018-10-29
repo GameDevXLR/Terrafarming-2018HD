@@ -19,7 +19,6 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
         }
         else
         {
-            Debug.Log("else");
             controller.Jump();
         }
     }

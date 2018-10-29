@@ -11,10 +11,8 @@ public class CameraController : MonoBehaviour
     public Vector3 offset;
 
 
-    public float stepZoom;
     public float minDistance;
     public float maxDistance;
-    public float radiusDetect;
     public float heigthDetect;
     public float minHeight;
     public float smooth;
@@ -22,6 +20,7 @@ public class CameraController : MonoBehaviour
 
     public Text verticalText;
     public Text horizontalText;
+    public Text DistanceText;
 
     public bool blocByEnv = true;
 
@@ -201,6 +200,7 @@ public class CameraController : MonoBehaviour
         set
         {
             distance = value;
+            SetUIText(DistanceText,value);
         }
     }
 
@@ -224,5 +224,16 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    public void SetUIText(Text uiText, float value)
+    {
+        if (verticalText != null)
+        {
+            uiText.text = value.ToString();
+        }
+        else
+        {
+            Debug.Log("CameraController ==> uiText manquant");
+        }
+    }
     #endregion UI
 }
