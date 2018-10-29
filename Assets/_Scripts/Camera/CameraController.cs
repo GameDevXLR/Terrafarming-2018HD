@@ -61,6 +61,7 @@ public class CameraController : MonoBehaviour
     {
         setVerticalUI(v);
         setHorizontalUI(h);
+        SetUIText(DistanceText,Distance);
         //test = GameObject.CreatePrimitive(PrimitiveType.Sphere); 
 
     }

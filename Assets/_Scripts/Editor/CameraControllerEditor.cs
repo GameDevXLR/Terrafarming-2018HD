@@ -47,6 +47,7 @@ public class CameraControllerEditor : Editor {
         zoomMaxProperty = serializedObject.FindProperty("maxDistance");
         verticalTextProperty = serializedObject.FindProperty("verticalText");
         horizontalTextProperty = serializedObject.FindProperty("horizontalText");
+        distanceTextProperty = serializedObject.FindProperty("DistanceText");
         smoothProperty = serializedObject.FindProperty("smooth");
         focusProperty = serializedObject.FindProperty("focus");
         heigthDetectProperty = serializedObject.FindProperty("heigthDetect");
@@ -74,6 +75,7 @@ public class CameraControllerEditor : Editor {
         EditorGUILayout.PropertyField(smoothProperty);
         EditorGUILayout.PropertyField(verticalTextProperty);
         EditorGUILayout.PropertyField(horizontalTextProperty);
+        EditorGUILayout.PropertyField(distanceTextProperty);
         EditorGUILayout.PropertyField(heigthDetectProperty);
         EditorGUILayout.PropertyField(maskProperty);
         EditorGUILayout.PropertyField(minHeightProperty);
