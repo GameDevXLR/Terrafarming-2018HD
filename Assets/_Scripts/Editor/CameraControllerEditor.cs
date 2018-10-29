@@ -26,6 +26,9 @@ public class CameraControllerEditor : Editor {
     SerializedProperty heigthDetectProperty;
     SerializedProperty maskProperty;
     SerializedProperty minHeightProperty;
+    SerializedProperty blockByEnvProperty;
+    SerializedProperty focusYAddProperty;
+    SerializedProperty rangeYProperty;
 
 
     private void OnEnable()
@@ -52,6 +55,9 @@ public class CameraControllerEditor : Editor {
         heigthDetectProperty = serializedObject.FindProperty("heigthDetect");
         maskProperty = serializedObject.FindProperty("mask");
         minHeightProperty = serializedObject.FindProperty("minHeight");
+        blockByEnvProperty = serializedObject.FindProperty("blocByEnv");
+        focusYAddProperty = serializedObject.FindProperty("focusYAdd");
+        rangeYProperty = serializedObject.FindProperty("rangeY");
 
     }
 
@@ -62,8 +68,8 @@ public class CameraControllerEditor : Editor {
 
         distanceProperty.floatValue = EditorGUILayout.Slider("Distance", cam.Distance, cam.minDistance, cam.maxDistance);
         ////cam.H = EditorGUILayout.Slider("Horizontal angle", cam.H, 0, 360);
-        verticalProperty.floatValue = EditorGUILayout.Slider("Vertical angle", cam.V, 0, 90);
-        horizontalProperty.floatValue = EditorGUILayout.Slider("Horizontal angle", cam.H, 0, 360);
+        verticalProperty.floatValue = EditorGUILayout.Slider("Vertical angle", cam.V, cam.minY, cam.maxY);
+        horizontalProperty.floatValue = EditorGUILayout.Slider("Horizontal angle", cam.H, cam.minX, cam.maxX);
 
         EditorGUILayout.PropertyField(focusProperty);
         EditorGUILayout.PropertyField(zoomMinimalProperty);
@@ -76,6 +82,8 @@ public class CameraControllerEditor : Editor {
         EditorGUILayout.PropertyField(radiusDetectProperty);
         EditorGUILayout.PropertyField(maskProperty);
         EditorGUILayout.PropertyField(minHeightProperty);
+        EditorGUILayout.PropertyField(blockByEnvProperty);
+        EditorGUILayout.PropertyField(focusYAddProperty);
 
         if (!Application.isPlaying && cam.focus != null )
         {

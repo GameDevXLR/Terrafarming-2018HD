@@ -6,7 +6,7 @@ public class FallingPlayerStateAnimator : PlayerStateAnimator
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         base.OnStateEnter(animator, animatorStateInfo, layerIndex);
-        controller.audio.PlayOneShot(controller.JetPack.JetPack.Sounds.soundDown);
+        //controller.audio.PlayOneShot(controller.JetPack.JetPack.Sounds.soundDown);
     }
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {

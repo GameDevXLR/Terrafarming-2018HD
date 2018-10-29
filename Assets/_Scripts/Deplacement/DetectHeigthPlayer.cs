@@ -9,6 +9,7 @@ public class DetectHeigthPlayer : MonoBehaviour
     public LayerMask mask;
 
     public float distanceMax = 30;
+    public float distanceGrounded;
 
     public RaycastHit hit;
 
@@ -25,7 +26,7 @@ public class DetectHeigthPlayer : MonoBehaviour
         {
             distanceToObstacle = hit.distance;
 
-            if (distanceToObstacle < 0.2)
+            if (distanceToObstacle < distanceGrounded)
             {
                 controller.IsGrounded = true;
 

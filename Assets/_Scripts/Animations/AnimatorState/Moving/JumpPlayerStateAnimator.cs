@@ -6,17 +6,22 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
     {
         base.OnStateEnter(animator, animatorStateInfo, layerIndex);
         
-        if (controller.usingJetPack)
+        if (controller.usingJetPack 
+            || (controller.JetPack.JetPack.jumpForce != 0 && animator.GetBool(AnimeParameters.iswalking.ToString()))
+            )
         {
+            Debug.Log("usinggetpack");
             controller.JumpWithJetPack();
             controller.usingJetPack = false;
         }
         else if (!controller.IsGrounded)
         {
+            Debug.Log("IsGrounded");
             controller.BoostFromJetPack();
         }
         else
         {
+            Debug.Log("else");
             controller.Jump();
         }
     }
@@ -34,7 +39,9 @@ public class JumpPlayerStateAnimator : PlayerStateAnimator
                 SwitchAnime(AnimeParameters.isflying, true);
             }
         }
-        else if (Input.GetKeyUp(CustomInputManager.instance.jumpKey))
+        else if (Input.GetKeyUp(CustomInputManager.instance.jumpKey) 
+            || (animator.GetBool(AnimeParameters.isflying.ToString()) && !Input.GetKey(CustomInputManager.instance.jumpKey)) 
+            )
         {
             SwitchAnime(AnimeParameters.isflying, false);
         }

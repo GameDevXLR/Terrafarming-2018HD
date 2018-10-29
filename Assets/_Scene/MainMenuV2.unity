@@ -1011,6 +1011,7 @@ MonoBehaviour:
   radiusDetect: 1
   heigthDetect: 10
   minHeight: 1
+  blocByEnv: 0
   mask:
     serializedVersion: 2
     m_Bits: 512

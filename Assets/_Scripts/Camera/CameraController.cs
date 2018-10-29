@@ -9,21 +9,29 @@ public class CameraController : MonoBehaviour
     //public GameObject test;
 
     public Vector3 offset;
-    public float stepZoom;
 
+
+    public float stepZoom;
     public float minDistance;
     public float maxDistance;
-
+    public float radiusDetect;
+    public float heigthDetect;
+    public float minHeight;
     public float smooth;
+    public float focusYAdd;
 
     public Text verticalText;
     public Text horizontalText;
 
-    public float radiusDetect;
-    public float heigthDetect;
-    public float minHeight;
+    public bool blocByEnv = true;
 
     public LayerMask mask;
+
+    public float maxY = 0;
+    public float minY = 90;
+
+    public float maxX = 0;
+    public float minX = 360;
 
 
     #endregion editor variables
@@ -77,10 +85,15 @@ public class CameraController : MonoBehaviour
     public void MoveSmoothlyCam()
     {
         offset = Quaternion.Euler(V, -H, Z) * new Vector3(0, 0, 1);
-        //Vector3 newPosition = focus.transform.position - offset * Distance;
-        Vector3 newPosition = focus.transform.position - offset * Distance;
-        //newPosition = DetectEnvironnemnt(newPosition);
-        newPosition = DetectPosition(focus.transform.position, offset);
+        Vector3 newPosition;
+        if (blocByEnv)
+        {
+            newPosition = DetectPosition(FocusPosition(), offset);
+        }
+        else
+        {
+            newPosition = FocusPosition() - offset * Distance;
+        }
 
         transform.position = Vector3.Lerp(transform.position, newPosition, smooth * Time.deltaTime);
     }
@@ -115,7 +128,7 @@ public class CameraController : MonoBehaviour
     {
         RaycastHit hit;
 
-        //Debug.DrawRay(p1, -offset * distance, Color.green);
+        Debug.DrawRay(p1, -offset * distance, Color.green);
 
         if (Physics.Raycast(p1, -offset, out hit, Distance, mask))
         {
@@ -126,6 +139,11 @@ public class CameraController : MonoBehaviour
             return p1 + offset;
         }
         return p1 - offset * Distance;
+    }
+
+    public Vector3 FocusPosition()
+    {
+        return focus.transform.position + new Vector3(0,focusYAdd,0);
     }
 
     #endregion
