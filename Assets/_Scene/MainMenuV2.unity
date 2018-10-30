@@ -1002,19 +1002,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   focus: {fileID: 48322133}
   offset: {x: -0.11242905, y: -0.38590604, z: -0.91566163}
-  stepZoom: 0
   minDistance: 1
   maxDistance: 100
-  smooth: 7.25
-  verticalText: {fileID: 0}
-  horizontalText: {fileID: 0}
-  radiusDetect: 1
   heigthDetect: 10
   minHeight: 1
+  smooth: 7.25
+  focusYAdd: 0
+  verticalText: {fileID: 0}
+  horizontalText: {fileID: 0}
+  DistanceText: {fileID: 0}
   blocByEnv: 0
   mask:
     serializedVersion: 2
     m_Bits: 512
+  maxY: 0
+  minY: 90
+  maxX: 0
+  minX: 360
   distance: 7.8
   v: 22.7
   h: 173
@@ -1229,7 +1233,7 @@ Prefab:
     - target: {fileID: 114114122046043012, guid: 175db0eb1f64d7b4ab63f0186cd9b8d7,
         type: 2}
       propertyPath: m_Text
-      value: Version - 0.1.15.8 PRIVATE
+      value: Version - 0.1.15.9 PRIVATE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 175db0eb1f64d7b4ab63f0186cd9b8d7, type: 2}

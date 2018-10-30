@@ -63,3 +63,8 @@ public enum TerrainEnum : int
     fire = 2,
     acid = 4,
 }
+
+public enum SoundEnum
+{
+
+}

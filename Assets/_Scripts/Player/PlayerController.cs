@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
         {
             behaviour.JumpWith(JetPack.JumpForce);
             propulseurParticle.Burst();
-            audio.PlayOneShot(jetPack.JetPack.Sounds.soundUp);
+            InGameSoundManager.instance.SwitchSound(audio, jetPack.JetPack.Sounds.soundUp);
         }
     }
 
@@ -128,9 +128,9 @@ public class PlayerController : MonoBehaviour
         if (JetPack.StartConsommation())
         {
             behaviour.IsFlying = true;
+            
             audio.clip = jetPack.JetPack.Sounds.soundLoop;
-            audio.Play();
-            audio.loop = true;
+            InGameSoundManager.instance.SwitchSound(audio, audio.clip);
 
         }
     }
@@ -139,8 +139,6 @@ public class PlayerController : MonoBehaviour
     {
         JetPack.StopConsommation();
         behaviour.IsFlying = false;
-        audio.Stop();
-        audio.clip = null;
-        audio.loop = false;
+        InGameSoundManager.StopSound(audio);
     }
 }
